@@ -15,10 +15,10 @@ DOMAIN = "dysmsapi.aliyuncs.com"
 
 
 
-ACCESS_KEY_ID = 'LTAI5tK3FdB7dwSBXkrfiQR9'
-ACCESS_KEY_SECRET = 'dJX056GXGD26Gv73lLAprhWnJCQwDw'
+ACCESS_KEY_ID = 'xxxxxxx'
+ACCESS_KEY_SECRET = 'xxxxxxxx'
 SING_NAME = "hitqyh"
-TEMPLATE_CODE = "SMS_275060723"
+TEMPLATE_CODE = "xxxxxxx"
 
 acs_client = AcsClient(ACCESS_KEY_ID, ACCESS_KEY_SECRET, REGION)
 region_provider.add_endpoint(PRODUCT_NAME, REGION, DOMAIN)
@@ -54,4 +54,4 @@ if __name__ == '__main__':
     params = {
         'code': 1234
     }
-    print(send_sms("18346617639", json.dumps(params)))
+    print(send_sms("xxxxxxxx", json.dumps(params)))
